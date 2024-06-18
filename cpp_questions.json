@@ -1,0 +1,402 @@
+[
+    {
+        "question": "Co to jest przeciążanie funkcji w C++?",
+        "options": [
+            "Przeciążanie funkcji pozwala na definiowanie wielu wersji tej samej funkcji o tej samej nazwie, ale z różnymi listami parametrów.",
+            "Przeciążanie funkcji to technika, która umożliwia definiowanie kilku funkcji o tej samej nazwie z różnymi typami wynikowymi.",
+            "Przeciążanie funkcji to metoda optymalizacji kodu w C++.",
+            "Przeciążanie funkcji umożliwia definiowanie funkcji o tej samej nazwie, ale z różnymi listami argumentów i typami zwracanymi."
+        ],
+        "answer": "Przeciążanie funkcji pozwala na definiowanie wielu wersji tej samej funkcji o tej samej nazwie, ale z różnymi listami parametrów."
+    },
+    {
+        "question": "Co to są funkcje inline w C++?",
+        "options": [
+            "Funkcje inline są to funkcje, które kompilator może wstawiać bezpośrednio w miejsce wywołania, zamiast wykonywać tradycyjne wywołanie funkcji.",
+            "Funkcje inline to funkcje, które są zawsze wywoływane z innej funkcji.",
+            "Funkcje inline są to funkcje, które są kompilowane tylko raz i używane w całym programie.",
+            "Funkcje inline są funkcjami, które można zdefiniować wewnątrz klas."
+        ],
+        "answer": "Funkcje inline są to funkcje, które kompilator może wstawiać bezpośrednio w miejsce wywołania, zamiast wykonywać tradycyjne wywołanie funkcji."
+    },
+    {
+        "question": "Jakie są ograniczenia przeciążania funkcji w C++?",
+        "options": [
+            "Można przeciążać funkcje zmieniając tylko typ wyniku.",
+            "Nie można przeciążać funkcji zmieniając tylko listę parametrów.",
+            "Można przeciążać funkcje zmieniając tylko nazwę funkcji.",
+            "Nie można przeciążać funkcji zmieniając tylko typ wyniku, lista parametrów musi być różna."
+        ],
+        "answer": "Nie można przeciążać funkcji zmieniając tylko typ wyniku, lista parametrów musi być różna."
+    },
+    {
+        "question": "Co to jest modularyzacja w C++?",
+        "options": [
+            "Modularyzacja to technika pisania programów w jednym pliku.",
+            "Modularyzacja to technika dzielenia programu na mniejsze, niezależne moduły.",
+            "Modularyzacja to technika kompilacji programu w jednym kroku.",
+            "Modularyzacja to metoda optymalizacji kodu w C++."
+        ],
+        "answer": "Modularyzacja to technika dzielenia programu na mniejsze, niezależne moduły."
+    },
+    {
+        "question": "Do czego służy plik nagłówkowy w C++?",
+        "options": [
+            "Plik nagłówkowy służy do przechowywania definicji zmiennych globalnych.",
+            "Plik nagłówkowy zawiera deklaracje funkcji i zapobiega wielokrotnemu włączaniu pliku do kodu źródłowego.",
+            "Plik nagłówkowy jest używany do przechowywania kodu źródłowego.",
+            "Plik nagłówkowy zawiera tylko komentarze do kodu źródłowego."
+        ],
+        "answer": "Plik nagłówkowy zawiera deklaracje funkcji i zapobiega wielokrotnemu włączaniu pliku do kodu źródłowego."
+    },
+    {
+        "question": "Co to jest dynamiczna alokacja pamięci w C++?",
+        "options": [
+            "Dynamiczna alokacja pamięci pozwala na rezerwację pamięci w czasie kompilacji.",
+            "Dynamiczna alokacja pamięci pozwala na rezerwację pamięci w czasie wykonywania programu za pomocą operatora new.",
+            "Dynamiczna alokacja pamięci jest używana tylko do alokacji pamięci dla zmiennych globalnych.",
+            "Dynamiczna alokacja pamięci jest używana do zarządzania pamięcią w stosie."
+        ],
+        "answer": "Dynamiczna alokacja pamięci pozwala na rezerwację pamięci w czasie wykonywania programu za pomocą operatora new."
+    },
+    {
+        "question": "Czym są wskaźniki w C++?",
+        "options": [
+            "Wskaźniki są zmiennymi przechowującymi wartości całkowitoliczbowe.",
+            "Wskaźniki są zmiennymi przechowującymi adresy innych zmiennych.",
+            "Wskaźniki są zmiennymi przechowującymi łańcuchy znaków.",
+            "Wskaźniki są zmiennymi przechowującymi struktury danych."
+        ],
+        "answer": "Wskaźniki są zmiennymi przechowującymi adresy innych zmiennych."
+    },
+    {
+        "question": "Jak używa się operatora dereferencji w C++?",
+        "options": [
+            "Operator dereferencji (*) służy do uzyskania adresu zmiennej.",
+            "Operator dereferencji (&) służy do uzyskania wartości przechowywanej pod adresem wskaźnika.",
+            "Operator dereferencji (*) służy do uzyskania wartości przechowywanej pod adresem wskaźnika.",
+            "Operator dereferencji (&) służy do uzyskania adresu wskaźnika."
+        ],
+        "answer": "Operator dereferencji (*) służy do uzyskania wartości przechowywanej pod adresem wskaźnika."
+    },
+    {
+        "question": "Czym są referencje w C++?",
+        "options": [
+            "Referencje są zmiennymi przechowującymi adresy innych zmiennych.",
+            "Referencje są aliasami dla innych zmiennych, pozwalając na dostęp do zmiennej pod inną nazwą.",
+            "Referencje są używane do przekazywania argumentów funkcji przez wartość.",
+            "Referencje są zmiennymi przechowującymi wartości całkowitoliczbowe."
+        ],
+        "answer": "Referencje są aliasami dla innych zmiennych, pozwalając na dostęp do zmiennej pod inną nazwą."
+    },
+    {
+        "question": "Jakie są różnice między wskaźnikami a referencjami w C++?",
+        "options": [
+            "Wskaźniki muszą być zainicjowane, referencje nie.",
+            "Wskaźniki mogą zmieniać swoje przypisanie, referencje - nie.",
+            "Wskaźniki mogą być zainicjowane wartością nullptr, referencje - nie.",
+            "Referencje mogą być null, wskaźniki nie."
+        ],
+        "answer": "Wskaźniki mogą zmieniać swoje przypisanie, referencje - nie."
+    },
+    {
+        "question": "Co to jest RAII w C++?",
+        "options": [
+            "RAII to technika zarządzania zasobami, która wiąże życie zasobu z życiem obiektu.",
+            "RAII to metoda optymalizacji pamięci w czasie kompilacji.",
+            "RAII to technika debugowania programów w C++.",
+            "RAII to metoda alokacji pamięci na stosie."
+        ],
+        "answer": "RAII to technika zarządzania zasobami, która wiąże życie zasobu z życiem obiektu."
+    },
+    {
+        "question": "Co to jest polimorfizm w C++?",
+        "options": [
+            "Polimorfizm pozwala na definiowanie funkcji o tej samej nazwie z różnymi typami wynikowymi.",
+            "Polimorfizm pozwala na definiowanie klas bazowych i klas pochodnych.",
+            "Polimorfizm pozwala na definiowanie różnych implementacji funkcji w klasach pochodnych, które są wywoływane w zależności od typu obiektu w czasie wykonania.",
+            "Polimorfizm pozwala na tworzenie funkcji wirtualnych w klasach bazowych."
+        ],
+        "answer": "Polimorfizm pozwala na definiowanie różnych implementacji funkcji w klasach pochodnych, które są wywoływane w zależności od typu obiektu w czasie wykonania."
+    },
+    {
+        "question": "Czym są klasy abstrakcyjne w C++?",
+        "options": [
+            "Klasy abstrakcyjne to klasy, które można instancjonować.",
+            "Klasy abstrakcyjne zawierają tylko funkcje czysto wirtualne i nie mogą mieć żadnych pól.",
+            "Klasy abstrakcyjne zawierają co najmniej jedną funkcję czysto wirtualną i nie można tworzyć ich instancji.",
+            "Klasy abstrakcyjne są używane tylko do dziedziczenia wielokrotnego."
+        ],
+        "answer": "Klasy abstrakcyjne zawierają co najmniej jedną funkcję czysto wirtualną i nie można tworzyć ich instancji."
+    },
+    {
+        "question": "Jakie są zalety używania referencji do przekazywania argumentów w funkcjach?",
+        "options": [
+            "Używanie referencji pozwala na uniknięcie kopiowania dużych struktur danych.",
+            "Używanie referencji pozwala na modyfikację argumentów wewnątrz funkcji.",
+            "Używanie referencji jest bardziej efektywne pamięciowo.",
+            "Wszystkie powyższe."
+        ],
+        "answer": "Wszystkie powyższe."
+    },
+    {
+        "question": "Czym są wskaźniki smart w C++?",
+        "options": [
+            "Wskaźniki smart to wskaźniki, które automatycznie zarządzają życiem obiektu, na który wskazują.",
+            "Wskaźniki smart to wskaźniki, które są używane do zarządzania pamięcią na stosie.",
+            "Wskaźniki smart to wskaźniki, które są używane do alokacji pamięci w czasie kompilacji.",
+            "Wskaźniki smart to wskaźniki, które są używane do zarządzania dynamicznymi tablicami."
+        ],
+        "answer": "Wskaźniki smart to wskaźniki, które automatycznie zarządzają życiem obiektu, na który wskazują."
+    },
+    {
+        "question": "Co to jest operator new w C++?",
+        "options": [
+            "Operator new służy do alokacji pamięci na stosie.",
+            "Operator new służy do alokacji pamięci na stercie.",
+            "Operator new służy do dealokacji pamięci.",
+            "Operator new jest używany tylko w funkcjach inline."
+        ],
+        "answer": "Operator new służy do alokacji pamięci na stercie."
+    },
+    {
+        "question": "Co to jest operator delete w C++?",
+        "options": [
+            "Operator delete służy do alokacji pamięci na stosie.",
+            "Operator delete służy do alokacji pamięci na stercie.",
+            "Operator delete służy do dealokacji pamięci, która została zaalokowana za pomocą operatora new.",
+            "Operator delete jest używany tylko w funkcjach inline."
+        ],
+        "answer": "Operator delete służy do dealokacji pamięci, która została zaalokowana za pomocą operatora new."
+    },
+    {
+        "question": "Czym jest przeciążenie operatorów w C++?",
+        "options": [
+            "Przeciążenie operatorów pozwala na definiowanie wielu wersji tej samej funkcji o tej samej nazwie.",
+            "Przeciążenie operatorów pozwala na definiowanie operatorów dla klas niestandardowych.",
+            "Przeciążenie operatorów pozwala na definiowanie operatorów arytmetycznych tylko dla typów wbudowanych.",
+            "Przeciążenie operatorów jest używane tylko w programowaniu funkcyjnym."
+        ],
+        "answer": "Przeciążenie operatorów pozwala na definiowanie operatorów dla klas niestandardowych."
+    },
+    {
+        "question": "Jakie są zalety używania listy inicjalizacyjnej w konstruktorach?",
+        "options": [
+            "Lista inicjalizacyjna pozwala na ustawienie wartości pól w momencie ich deklaracji.",
+            "Lista inicjalizacyjna jest bardziej efektywna niż inicjalizacja w ciele konstruktora.",
+            "Lista inicjalizacyjna pozwala na inicjalizację pól, które są stałymi.",
+            "Wszystkie powyższe."
+        ],
+        "answer": "Wszystkie powyższe."
+    },
+    {
+        "question": "Co to jest enkapsulacja w programowaniu obiektowym?",
+        "options": [
+            "Enkapsulacja to technika ukrywania implementacji klasy przed użytkownikiem.",
+            "Enkapsulacja to technika definiowania funkcji wewnątrz klas.",
+            "Enkapsulacja to technika zarządzania pamięcią w klasach.",
+            "Enkapsulacja to technika tworzenia hierarchii klas."
+        ],
+        "answer": "Enkapsulacja to technika ukrywania implementacji klasy przed użytkownikiem."
+    },
+    {
+        "question": "Jakie są różnice między klasami a strukturami w C++?",
+        "options": [
+            "Klasy i struktury są identyczne w C++.",
+            "Klasy domyślnie mają specyfikator dostępu private, a struktury public.",
+            "Struktury nie mogą zawierać funkcji członkowskich.",
+            "Klasy mogą dziedziczyć, a struktury nie."
+        ],
+        "answer": "Klasy domyślnie mają specyfikator dostępu private, a struktury public."
+    },
+    {
+        "question": "Co to jest funkcja czysto wirtualna?",
+        "options": [
+            "Funkcja czysto wirtualna to funkcja, która nie ma implementacji w klasie bazowej i musi być zdefiniowana w klasach pochodnych.",
+            "Funkcja czysto wirtualna to funkcja, która zawsze ma implementację w klasie bazowej.",
+            "Funkcja czysto wirtualna to funkcja, która jest wywoływana tylko w klasach pochodnych.",
+            "Funkcja czysto wirtualna to funkcja, która nie zwraca żadnej wartości."
+        ],
+        "answer": "Funkcja czysto wirtualna to funkcja, która nie ma implementacji w klasie bazowej i musi być zdefiniowana w klasach pochodnych."
+    },
+    {
+        "question": "Co to jest dziedziczenie w C++?",
+        "options": [
+            "Dziedziczenie to mechanizm tworzenia nowych klas na podstawie istniejących klas.",
+            "Dziedziczenie to mechanizm definiowania funkcji wirtualnych.",
+            "Dziedziczenie to mechanizm zarządzania pamięcią w programowaniu obiektowym.",
+            "Dziedziczenie to mechanizm definiowania zmiennych globalnych."
+        ],
+        "answer": "Dziedziczenie to mechanizm tworzenia nowych klas na podstawie istniejących klas."
+    },
+    {
+        "question": "Jakie są zalety używania przestrzeni nazw w C++?",
+        "options": [
+            "Przestrzenie nazw pomagają zapanować nad bałaganem i dublowaniem się nazw w programie.",
+            "Przestrzenie nazw są używane do definiowania zmiennych globalnych.",
+            "Przestrzenie nazw pozwalają na tworzenie hierarchii klas.",
+            "Przestrzenie nazw są używane tylko w programach wielowątkowych."
+        ],
+        "answer": "Przestrzenie nazw pomagają zapanować nad bałaganem i dublowaniem się nazw w programie."
+    },
+    {
+        "question": "Czym jest konstruktor kopiujący w C++?",
+        "options": [
+            "Konstruktor kopiujący to specjalny konstruktor, który jest wywoływany, gdy obiekt jest kopiowany.",
+            "Konstruktor kopiujący to konstruktor, który inicjalizuje obiekt wartościami domyślnymi.",
+            "Konstruktor kopiujący to konstruktor, który usuwa obiekt z pamięci.",
+            "Konstruktor kopiujący to konstruktor, który jest używany tylko w klasach abstrakcyjnych."
+        ],
+        "answer": "Konstruktor kopiujący to specjalny konstruktor, który jest wywoływany, gdy obiekt jest kopiowany."
+    },
+    {
+        "question": "Co to jest mechanizm late binding w C++?",
+        "options": [
+            "Mechanizm late binding to technika wiązania wywołań funkcji z definicjami w czasie kompilacji.",
+            "Mechanizm late binding to technika wiązania wywołań funkcji z definicjami w czasie wykonania programu.",
+            "Mechanizm late binding to technika zarządzania pamięcią.",
+            "Mechanizm late binding to technika definiowania funkcji inline."
+        ],
+        "answer": "Mechanizm late binding to technika wiązania wywołań funkcji z definicjami w czasie wykonania programu."
+    },
+    {
+        "question": "Co to jest szablon (template) w C++?",
+        "options": [
+            "Szablon to konstrukcja umożliwiająca definiowanie funkcji i klas w sposób generyczny.",
+            "Szablon to specjalny typ zmiennej globalnej.",
+            "Szablon to technika definiowania przestrzeni nazw.",
+            "Szablon to metoda optymalizacji kodu w C++."
+        ],
+        "answer": "Szablon to konstrukcja umożliwiająca definiowanie funkcji i klas w sposób generyczny."
+    },
+    {
+        "question": "Jakie są zalety używania szablonów w C++?",
+        "options": [
+            "Szablony pozwalają na tworzenie bardziej elastycznego i wielokrotnego użytku kodu.",
+            "Szablony zwiększają wydajność programu.",
+            "Szablony umożliwiają tworzenie hierarchii klas.",
+            "Szablony są łatwiejsze w debugowaniu."
+        ],
+        "answer": "Szablony pozwalają na tworzenie bardziej elastycznego i wielokrotnego użytku kodu."
+    },
+    {
+        "question": "Czym jest operator move w C++?",
+        "options": [
+            "Operator move służy do przenoszenia zasobów z jednego obiektu do innego, bez kosztownego kopiowania.",
+            "Operator move służy do alokacji pamięci.",
+            "Operator move służy do zwalniania pamięci.",
+            "Operator move jest używany tylko w funkcjach inline."
+        ],
+        "answer": "Operator move służy do przenoszenia zasobów z jednego obiektu do innego, bez kosztownego kopiowania."
+    },
+    {
+        "question": "Co to jest tablica w C++?",
+        "options": [
+            "Tablica to zmienna przechowująca wiele wartości tego samego typu.",
+            "Tablica to zmienna przechowująca wiele wartości różnych typów.",
+            "Tablica to zmienna przechowująca wskaźniki na inne zmienne.",
+            "Tablica to zmienna przechowująca tylko wartości całkowitoliczbowe."
+        ],
+        "answer": "Tablica to zmienna przechowująca wiele wartości tego samego typu."
+    },
+    {
+        "question": "Jakie są różnice między tablicą statyczną a dynamiczną w C++?",
+        "options": [
+            "Tablica statyczna jest alokowana w czasie kompilacji, a dynamiczna w czasie wykonania.",
+            "Tablica dynamiczna jest alokowana w czasie kompilacji, a statyczna w czasie wykonania.",
+            "Tablica statyczna ma zmienny rozmiar, a dynamiczna stały.",
+            "Tablica statyczna może przechowywać tylko wartości całkowitoliczbowe, a dynamiczna dowolne typy."
+        ],
+        "answer": "Tablica statyczna jest alokowana w czasie kompilacji, a dynamiczna w czasie wykonania."
+    },
+    {
+        "question": "Co to jest operator delete[] w C++?",
+        "options": [
+            "Operator delete[] służy do dealokacji pamięci zarezerwowanej dla tablicy dynamicznej.",
+            "Operator delete[] służy do alokacji pamięci dla tablicy dynamicznej.",
+            "Operator delete[] jest używany do zwalniania pamięci na stosie.",
+            "Operator delete[] jest używany tylko w funkcjach inline."
+        ],
+        "answer": "Operator delete[] służy do dealokacji pamięci zarezerwowanej dla tablicy dynamicznej."
+    },
+    {
+        "question": "Co to jest std::unique_ptr w C++?",
+        "options": [
+            "std::unique_ptr to inteligentny wskaźnik, który zarządza dynamicznie alokowaną pamięcią i zapewnia jej automatyczne zwalnianie, gdy wskaźnik wychodzi z zakresu.",
+            "std::unique_ptr to wskaźnik, który może być współdzielony między wiele obiektów.",
+            "std::unique_ptr to wskaźnik, który jest zawsze null.",
+            "std::unique_ptr to wskaźnik, który jest używany tylko do alokacji pamięci na stosie."
+        ],
+        "answer": "std::unique_ptr to inteligentny wskaźnik, który zarządza dynamicznie alokowaną pamięcią i zapewnia jej automatyczne zwalnianie, gdy wskaźnik wychodzi z zakresu."
+    },
+    {
+        "question": "Czym jest lista inicjalizacyjna konstruktora w C++?",
+        "options": [
+            "Lista inicjalizacyjna konstruktora to sposób inicjalizacji pól obiektu w momencie tworzenia obiektu, używając dwukropka po nagłówku konstruktora.",
+            "Lista inicjalizacyjna konstruktora to sposób definiowania funkcji wewnątrz klas.",
+            "Lista inicjalizacyjna konstruktora to sposób zarządzania pamięcią dynamiczną.",
+            "Lista inicjalizacyjna konstruktora to sposób definiowania przestrzeni nazw."
+        ],
+        "answer": "Lista inicjalizacyjna konstruktora to sposób inicjalizacji pól obiektu w momencie tworzenia obiektu, używając dwukropka po nagłówku konstruktora."
+    },
+    {
+        "question": "Czym jest enkapsulacja w programowaniu obiektowym?",
+        "options": [
+            "Enkapsulacja to technika ukrywania implementacji klasy przed użytkownikiem.",
+            "Enkapsulacja to technika definiowania funkcji wewnątrz klas.",
+            "Enkapsulacja to technika zarządzania pamięcią w klasach.",
+            "Enkapsulacja to technika tworzenia hierarchii klas."
+        ],
+        "answer": "Enkapsulacja to technika ukrywania implementacji klasy przed użytkownikiem."
+    },
+    {
+        "question": "Jakie są różnice między funkcją a metodą w C++?",
+        "options": [
+            "Funkcja jest niezależna od klasy, a metoda jest funkcją członkowską klasy.",
+            "Funkcja jest zawsze inline, a metoda nie.",
+            "Funkcja nie może być przeciążana, a metoda może.",
+            "Funkcja jest zawsze wirtualna, a metoda nie."
+        ],
+        "answer": "Funkcja jest niezależna od klasy, a metoda jest funkcją członkowską klasy."
+    },
+    {
+        "question": "Co to jest referencja w C++?",
+        "options": [
+            "Referencja to alias dla innej zmiennej, umożliwiający dostęp do tej zmiennej pod inną nazwą.",
+            "Referencja to zmienna przechowująca adres innej zmiennej.",
+            "Referencja to zmienna przechowująca wartość całkowitą.",
+            "Referencja to zmienna przechowująca łańcuch znaków."
+        ],
+        "answer": "Referencja to alias dla innej zmiennej, umożliwiający dostęp do tej zmiennej pod inną nazwą."
+    },
+    {
+        "question": "Czym jest mechanizm late binding w C++?",
+        "options": [
+            "Mechanizm late binding to technika wiązania wywołań funkcji z definicjami w czasie kompilacji.",
+            "Mechanizm late binding to technika wiązania wywołań funkcji z definicjami w czasie wykonania programu.",
+            "Mechanizm late binding to technika zarządzania pamięcią.",
+            "Mechanizm late binding to technika definiowania funkcji inline."
+        ],
+        "answer": "Mechanizm late binding to technika wiązania wywołań funkcji z definicjami w czasie wykonania programu."
+    },
+    {
+        "question": "Co to jest wskaźnik w C++?",
+        "options": [
+            "Wskaźnik to zmienna przechowująca adres innej zmiennej.",
+            "Wskaźnik to zmienna przechowująca wartość całkowitą.",
+            "Wskaźnik to zmienna przechowująca łańcuch znaków.",
+            "Wskaźnik to zmienna przechowująca strukturę danych."
+        ],
+        "answer": "Wskaźnik to zmienna przechowująca adres innej zmiennej."
+    },
+    {
+        "question": "Jakie są zalety używania szablonów w C++?",
+        "options": [
+            "Szablony pozwalają na tworzenie bardziej elastycznego i wielokrotnego użytku kodu.",
+            "Szablony zwiększają wydajność programu.",
+            "Szablony umożliwiają tworzenie hierarchii klas.",
+            "Szablony są łatwiejsze w debugowaniu."
+        ],
+        "answer": "Szablony pozwalają na tworzenie bardziej elastycznego i wielokrotnego użytku kodu."
+    }
+]
